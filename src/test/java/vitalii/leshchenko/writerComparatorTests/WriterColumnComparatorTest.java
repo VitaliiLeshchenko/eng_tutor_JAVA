@@ -12,15 +12,15 @@ public class WriterColumnComparatorTest {
   public void compareTests(){
     Comparator<String> comparator = new WriteColumnComparator();
     Assertions.assertEquals(-1,
-        comparator.compare("article".toUpperCase(), "word".toUpperCase()));
+        comparator.compare("article", "word"));
     Assertions.assertEquals(1,
-        comparator.compare("word".toUpperCase(), "article".toUpperCase()));
+        comparator.compare("word", "article"));
     Assertions.assertEquals(0,
-        comparator.compare("word".toUpperCase(), "word".toUpperCase()));
+        comparator.compare("word", "word"));
     Assertions.assertEquals(0,
-        comparator.compare(null, "word".toUpperCase()));
+        comparator.compare(null, "word"));
     Assertions.assertEquals(0,
-        comparator.compare(null, "wor".toUpperCase()));
+        comparator.compare(null, "wor"));
     Assertions.assertEquals(0,
         comparator.compare(null, null));
   }

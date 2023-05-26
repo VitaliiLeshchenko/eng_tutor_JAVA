@@ -20,6 +20,11 @@ public class WriteColumnComparator implements Comparator<String> {
 
   @Override
   public int compare(String obj1, String obj2) {
+    if (obj1 == null || obj2 == null) {
+      return 0;
+    }
+    obj1 = obj1.toUpperCase();
+    obj2 = obj2.toUpperCase();
     if (this.mapColumn.get(obj1) == null || this.mapColumn.get(obj2) == null) {
       return 0;
     }
