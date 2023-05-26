@@ -4,7 +4,6 @@ import vitalii.leshchenko.entities.LearnedWord;
 
 import java.util.List;
 
-public interface Read {
-  public List<String[]> read();
-  public List<LearnedWord> getLearnedWordList();
+public interface CSVReader {
+  public List<LearnedWord> read();
 }

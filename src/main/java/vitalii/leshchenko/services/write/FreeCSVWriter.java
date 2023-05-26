@@ -12,11 +12,12 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
 
-public class FreeCSVWriter {
+public class FreeCSVWriter implements CSVWriter<LearnedWord> {
   private final String filePath;
   public FreeCSVWriter(String filePath) {
     this.filePath = filePath;
   }
+  @Override
   public void write(List<LearnedWord> beans) {
     Writer writer = null;
     try {

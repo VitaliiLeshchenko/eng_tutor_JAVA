@@ -8,11 +8,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-public class FreeCSVReader implements Read {
+public class FreeCSVReader implements CSVReader {
   private String filePath;
   private List<LearnedWord> learnedWordList;
 
-  public List<LearnedWord> getLearnedWordList() {
+  public List<LearnedWord> read() {
     return learnedWordList;
   }
 
@@ -30,10 +30,5 @@ public class FreeCSVReader implements Read {
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
-  }
-
-  @Override
-  public List<String[]> read() {
-    return null;
   }
 }
