@@ -3,7 +3,6 @@ package vitalii.leshchenko;
 import vitalii.leshchenko.entities.LearnedWord;
 import vitalii.leshchenko.entities.RangToLearn;
 
-import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -33,12 +32,18 @@ public class MainThread {
       System.out.println("test : " + iteratorTest + " || tests left : " + queue.size());
       System.out.println(learnedWord.getUkTranslation() + " - " + learnedWord.getEngMeaning());
       text = scanner.nextLine();
-      learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() + 1);
-      while (!text.equalsIgnoreCase(learnedWord.getWord())) {
-        learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
-        System.out.println(learnedWord.getWord());
-        queue.add(learnedWord);
+      if (text.equals("-close")) break;
+      if (text.equals("-help")) {
+        System.out.println("write \"-close\" or \n write an answer");
         text = scanner.nextLine();
+      }
+        learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() + 1);
+        while (!text.equalsIgnoreCase(learnedWord.getWord())) {
+          learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
+          System.out.println(learnedWord.getWord());
+          queue.add(learnedWord);
+          text = scanner.nextLine();
+
       }
     }
   }
