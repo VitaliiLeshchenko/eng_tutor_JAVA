@@ -3,6 +3,8 @@ package vitalii.leshchenko.entities;
 import com.opencsv.bean.CsvBindByName;
 
 public class LearnedWord {
+  private static final int MARKER_LEARNED_RIGHT_ANSWERS_COUNT = 20;
+  private static final int MARKER_NEEDTOREPEAT_RIGHT_ANSWERS_COUNT = 15;
   @CsvBindByName(column = "article")
   private String article;
   @CsvBindByName(column = "word", required = true)
@@ -17,7 +19,6 @@ public class LearnedWord {
   private RangToLearn rangToLearn;
   @CsvBindByName(column = "rightAnswerCount")
   private int rightAnswerCount;
-
   public LearnedWord() {
   }
 
@@ -85,6 +86,15 @@ public class LearnedWord {
 
   public void setRightAnswerCount(int rightAnswerCount) {
     this.rightAnswerCount = rightAnswerCount;
+  }
+
+  public void checkLearned() {
+    if (this.getRightAnswerCount() > MARKER_NEEDTOREPEAT_RIGHT_ANSWERS_COUNT) {
+      this.rangToLearn = RangToLearn.needToRepeat;
+    }
+    if (this.getRightAnswerCount() > MARKER_LEARNED_RIGHT_ANSWERS_COUNT) {
+      this.rangToLearn = RangToLearn.learned;
+    }
   }
 
   @Override

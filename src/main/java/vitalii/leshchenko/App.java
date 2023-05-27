@@ -14,7 +14,7 @@ public class App
         String fileReadPath = "C:/Users/Leshchenko/IdeaProjects/eng_tutor_JAVA/src/main/resources/vocabularyWRITE.csv";
         String fileWritePath = "C:/Users/Leshchenko/IdeaProjects/eng_tutor_JAVA/src/main/resources/vocabularyWRITE.csv";
         CSVReader reader = new FreeCSVReader(fileReadPath);
-        List<LearnedWord> listWords = reader.read();
+        List<LearnedWord> listWords = reader.getList();
         MainThread mainThread = new MainThread(listWords);
 
         mainThread.Run();

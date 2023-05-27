@@ -19,7 +19,7 @@ public class FreeCSVReaderTest {
   public void CreateGetListBeans(){
     List<LearnedWord> learnedWordList;
     FreeCSVReader reader = new FreeCSVReader("C:/Users/Leshchenko/IdeaProjects/eng_tutor_JAVA/src/main/resources/vocabularyWRITE.csv");
-    learnedWordList = reader.read();
+    learnedWordList = reader.getList();
     Assertions.assertNotNull(learnedWordList);
     Assertions.assertNotNull(learnedWordList.get(0).getWord());
   }

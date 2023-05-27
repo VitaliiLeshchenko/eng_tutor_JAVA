@@ -9,9 +9,12 @@ import java.util.stream.Collectors;
 public class MainThread {
   List<LearnedWord> listWords;
   Scanner scanner;
-//todo java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "list" is null
+
   public MainThread(List<LearnedWord> listWords) {
-    Collections.shuffle(listWords);
+    if (listWords == null) {
+      listWords = new LinkedList<>();
+    }
+    Collections.shuffle(new LinkedList<>());
     this.listWords = listWords;
     scanner = new Scanner(System.in);
   }
@@ -19,17 +22,22 @@ public class MainThread {
   public void Run() {
     System.out.println("Hello.");
     String text;
-    Queue<LearnedWord> queue = listWords.stream()
-        .filter(item ->
-            item.getRangToLearn()
-                .equals(RangToLearn.needToLearn)).collect(Collectors.toCollection(LinkedList::new));
+    Random random = new Random();
+    LinkedList<LearnedWord> linkedList = listWords.stream()
+        // remove "learned" words from list
+        .filter(item -> item.getRangToLearn().equals(RangToLearn.needToLearn) ||
+        // remove every second "needToRepeat" words from list
+                       (item.getRangToLearn().equals(RangToLearn.needToRepeat) & random.nextBoolean()))
+        .collect(Collectors.toCollection(LinkedList::new));
+    Collections.shuffle(linkedList);
+
     int iteratorTest = 0;
-    while (queue.size() > 0) {
+    while (linkedList.size() > 0) {
       clearConsole();
-      LearnedWord learnedWord = queue.remove();
+      LearnedWord learnedWord = linkedList.remove();
 
       iteratorTest++;
-      System.out.println("test : " + iteratorTest + " || tests left : " + queue.size());
+      System.out.println("test : " + iteratorTest + " || tests left : " + linkedList.size());
       System.out.println(learnedWord.getUkTranslation() + " - " + learnedWord.getEngMeaning());
       text = scanner.nextLine();
       if (text.equals("-close")) break;
@@ -41,10 +49,10 @@ public class MainThread {
         while (!text.equalsIgnoreCase(learnedWord.getWord())) {
           learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
           System.out.println(learnedWord.getWord());
-          queue.add(learnedWord);
+          linkedList.add(learnedWord);
           text = scanner.nextLine();
-
       }
+      learnedWord.checkLearned();
     }
   }
 
@@ -54,7 +62,7 @@ public class MainThread {
       if (os.contains("Windows")) {
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
       } else {
-        Runtime.getRuntime().exec("clear");
+        Runtime.getRuntime().exec(new String[]{"clear"});
       }
     } catch (final Exception e) {
       System.out.println("Failed to clear console: " + e);

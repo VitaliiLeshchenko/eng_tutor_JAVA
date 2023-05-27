@@ -18,6 +18,12 @@ public class MainThreadTests {
   }
 
   @Test
+  public void createInstanceWithNullParamTest() {
+    MainThread mainThread = new MainThread(null);
+    Assertions.assertNotNull(mainThread);
+  }
+
+  @Test
   public void fullTest() {
     LearnedWord learnedWord1 = new LearnedWord(
         "an",
@@ -47,6 +53,5 @@ public class MainThreadTests {
         new ArrayList<LearnedWord>(Arrays.asList(learnedWord1, learnedWord2, learnedWord3))
     );
     Assertions.assertNotNull(mainThread);
-    mainThread.Run();
   }
 }

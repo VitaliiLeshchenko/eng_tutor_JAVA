@@ -12,7 +12,7 @@ public class FreeCSVReader implements CSVReader {
   private String filePath;
   private List<LearnedWord> learnedWordList;
 
-  public List<LearnedWord> read() {
+  public List<LearnedWord> getList() {
     return learnedWordList;
   }
 

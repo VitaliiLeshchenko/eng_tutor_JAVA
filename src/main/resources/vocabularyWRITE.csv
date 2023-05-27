@@ -2,7 +2,7 @@ ARTICLE;WORD;WORDCLASS;UKTRANSLATION;ENGMEANING;RANGTOLEARN;RIGHTANSWERCOUNT
 ;watchword;noun;лозунг;;needToRepeat;0
 ;intensely;adverb;интенсивно;;needToRepeat;0
 ;inappropriate;adjective;недоречно;unsuitable, esp. for the particular time, place, or situation;needToLearn;0
-;tie;verb;зав'язувати;to fasten together two ends of a piece of string or other long, thin material, or to (cause to) hold together with a long, thin piece of string, material, etc.;needToLearn;2
+;tie;verb;зав'язувати;to fasten together two ends of a piece of string or other long, thin material, or to (cause to) hold together with a long, thin piece of string, material, etc.;needToLearn;3
 ;haven;noun;притулок;a place of safety or refuge;needToLearn;2
 ;verb;noun;дієслово;;learned;0
 ;lucidly;adverb;доходчиво;;needToRepeat;0
@@ -97,7 +97,7 @@ ARTICLE;WORD;WORDCLASS;UKTRANSLATION;ENGMEANING;RANGTOLEARN;RIGHTANSWERCOUNT
 ;wire;noun;дріт;metal drawn out into the form of a thin flexible thread or rod;needToLearn;2
 ;appears;verb;з'являтися;;needToRepeat;0
 ;downer;noun;депресант;;needToRepeat;0
-;fracture;verb;ламати;If something hard, such as a bone breaks or cracks;needToLearn;2
+;fracture;verb;ламати;If something hard, such as a bone breaks or cracks;needToLearn;3
 ;headache;noun;головний біль;;learned;0
 ;silencer;noun;глушитель;;learned;0
 ;rapid;adjective;швидкий;fast or sudden;needToLearn;2
@@ -114,7 +114,7 @@ ARTICLE;WORD;WORDCLASS;UKTRANSLATION;ENGMEANING;RANGTOLEARN;RIGHTANSWERCOUNT
 ;unbowed;adjective;непокоренный;;needToRepeat;0
 ;agreement;noun;угода, договір;;needToRepeat;0
 ;consider;verb;розглянути;to spend time thinking about a possibility or making a decision;needToLearn;2
-;purpose;noun;мета;why you do something or why something exists;needToLearn;2
+;purpose;noun;мета;why you do something or why something exists;needToLearn;3
 ;prodigy;noun;чудо;;needToRepeat;0
 ;thesis;noun;теза;the main idea, opinion, or theory of a person, group, piece of writing, or speech;learned;0
 ;checkout;noun;каса;the place on a website where you order and pay for goods;needToLearn;2
@@ -126,9 +126,9 @@ ARTICLE;WORD;WORDCLASS;UKTRANSLATION;ENGMEANING;RANGTOLEARN;RIGHTANSWERCOUNT
 ;trolley;noun;візок;a small vehicle with two or four wheels that you push or pull to transport large or heavy objects on;needToRepeat;0
 ;determiner;noun;визначник;a word that modifies, describes, or introduces a noun;needToRepeat;0
 ;peel;noun;шкірка;the skin of fruit and vegetables, especially after it has been removed;learned;0
-;strap;noun;ремінь;;needToRepeat;0
+;strap;noun;ремінь;;needToRepeat;1
 ;impersonator;noun;самозванец;;needToRepeat;0
-;heap;noun;куча;an untidy pile or mass of things;needToLearn;2
+;heap;noun;куча;an untidy pile or mass of things;needToLearn;3
 ;suggest;verb;пропонувати;to mention an idea, possible plan, or action for other people to consider;needToLearn;2
 ;deficit;noun;дефіцит;the total amount by which money spent is more than money received;learned;0
 ;beefy;adjective;мускулистий;person looks strong, heavy, and powerful;needToLearn;1
