@@ -16,7 +16,7 @@ public class MainThread {
   Speaker mp3Speaker;
   String path;
 
-    public MainThread(List<LearnedWord> listWords) {
+  public MainThread(List<LearnedWord> listWords) {
     if (listWords == null) {
       listWords = new LinkedList<>();
     }
@@ -34,7 +34,6 @@ public class MainThread {
   }
 
   public void Run() {
-    System.out.println("Hello.");
     String text;
     Random random = new Random();
     LinkedList<LearnedWord> linkedList = listWords.stream()
@@ -72,6 +71,9 @@ public class MainThread {
     }
   }
 
+  public void addNewWords() {
+
+  }
 
   public static void clearConsole() {
     try {

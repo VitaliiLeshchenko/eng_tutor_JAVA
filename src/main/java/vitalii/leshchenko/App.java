@@ -1,6 +1,7 @@
 package vitalii.leshchenko;
 
 import vitalii.leshchenko.entities.LearnedWord;
+import vitalii.leshchenko.services.WordAutomaticBuilder;
 import vitalii.leshchenko.services.read.FreeCSVReader;
 import vitalii.leshchenko.services.read.CSVReader;
 import vitalii.leshchenko.services.write.CSVWriter;
@@ -18,9 +19,9 @@ import java.util.stream.Stream;
 public class App 
 {
     public static void main( String[] args ) {
-      String dbFilePath = "C:/Users/Leshchenko/google_keys/vocabularyWRITE — копия.csv";
+      String dbFilePath = "src/main/resources/vocabularyWRITE.csv";
+      Scanner scanner = new Scanner(System.in);
       try {
-        Scanner scanner = new Scanner(System.in);
         String jarPath = new File(App.class.getProtectionDomain().getCodeSource().getLocation()
             .toURI()).getParent();
         ArrayList<String> files = new App().listFilesUsingJavaIO(jarPath);
@@ -41,8 +42,26 @@ public class App
       }
       CSVReader reader = new FreeCSVReader(dbFilePath);
       List<LearnedWord> listWords = reader.getList();
-      MainThread mainThread = new MainThread(listWords);
 
+
+      System.out.println("If you want to add new words press \"-add\" else press enter. Press \"q\" to stop");
+      String text = scanner.nextLine();
+      if (text.equals("-add")) {
+        WordAutomaticBuilder wordAutomaticBuilder = new WordAutomaticBuilder();
+        while (true) {
+          text = scanner.nextLine();
+          if (text.equals("q")) break;
+          if (listWords.stream().map(LearnedWord::getWord).anyMatch(w -> w.equals("listWords"))) {
+            System.out.println("This word is already in dictionary. ");
+            break;
+          }
+          LearnedWord learnedWord = wordAutomaticBuilder.getLearnedWord(text);
+          System.out.println(learnedWord.toString());
+          listWords.add(learnedWord);
+        }
+      }
+
+      MainThread mainThread = new MainThread(listWords);
       mainThread.Run();
 
       CSVWriter<LearnedWord> writer = new FreeCSVWriter(dbFilePath);
