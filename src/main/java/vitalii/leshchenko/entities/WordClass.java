@@ -12,5 +12,6 @@ public enum WordClass {
     conjunction,
     determiner,
     interjection,
-    sentence
+    sentence,
+    undefined
 }
