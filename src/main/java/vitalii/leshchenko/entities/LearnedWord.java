@@ -100,13 +100,11 @@ public class LearnedWord {
   @Override
   public String toString() {
     return "LearnedWord{" +
-        "article='" + article + '\'' +
-        ", word='" + word + '\'' +
-        ", wordClass=" + wordClass +
-        ", ukTranslation='" + ukTranslation + '\'' +
-        ", engMeaning='" + engMeaning + '\'' +
-        ", rangToLearn=" + rangToLearn +
-        ", rightAnswerCount=" + rightAnswerCount +
+        ", word='" + word + '\'' + "\n" +
+        ", wordClass=" + wordClass + "\n" +
+        ", ukTranslation='" + ukTranslation + '\'' + "\n" +
+        ", engMeaning='" + engMeaning + '\'' + "\n" +
+        ", rightAnswerCount=" + rightAnswerCount + "\n" +
         '}';
   }
 }

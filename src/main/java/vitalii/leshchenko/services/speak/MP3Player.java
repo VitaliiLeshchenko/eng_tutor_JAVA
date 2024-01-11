@@ -16,8 +16,6 @@ public class MP3Player implements Speaker{
         executionPath = path;
     }
 
-    //"C:/Users/Leshchenko/IdeaProjects/eng_tutor_JAVA/src/main/resources/test.mp3"
-
     public void speak(String text) {
         String filePath = executionPath + "\\sounds\\" + text + ".mp3";
 
