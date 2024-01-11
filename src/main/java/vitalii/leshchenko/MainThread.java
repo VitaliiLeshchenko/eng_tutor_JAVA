@@ -2,21 +2,35 @@ package vitalii.leshchenko;
 
 import vitalii.leshchenko.entities.LearnedWord;
 import vitalii.leshchenko.entities.RangToLearn;
+import vitalii.leshchenko.services.speak.MP3Player;
+import vitalii.leshchenko.services.speak.Speaker;
 
+import java.io.File;
+import java.net.URISyntaxException;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class MainThread {
   List<LearnedWord> listWords;
   Scanner scanner;
+  Speaker mp3Speaker;
+  String path;
 
-  public MainThread(List<LearnedWord> listWords) {
+    public MainThread(List<LearnedWord> listWords) {
     if (listWords == null) {
       listWords = new LinkedList<>();
     }
     Collections.shuffle(new LinkedList<>());
     this.listWords = listWords;
     scanner = new Scanner(System.in);
+
+    try {
+        path = new File(App.class.getProtectionDomain().getCodeSource().getLocation()
+                .toURI()).getParent();
+        mp3Speaker = new MP3Player(path);
+    } catch (URISyntaxException e) {
+        throw new RuntimeException(e);
+    }
   }
 
   public void Run() {
@@ -39,6 +53,7 @@ public class MainThread {
       iteratorTest++;
       System.out.println("test : " + iteratorTest + " || tests left : " + linkedList.size());
       System.out.println(learnedWord.getUkTranslation() + " - " + learnedWord.getEngMeaning());
+      System.out.println("    " + learnedWord.getRangToLearn() + " - " + learnedWord.getRightAnswerCount());
       text = scanner.nextLine();
       if (text.equals("-close")) break;
       if (text.equals("-help")) {
@@ -52,9 +67,11 @@ public class MainThread {
           linkedList.add(learnedWord);
           text = scanner.nextLine();
       }
-      learnedWord.checkLearned();
+        // Speak the text
+        mp3Speaker.speak(learnedWord.getWord());
     }
   }
+
 
   public static void clearConsole() {
     try {

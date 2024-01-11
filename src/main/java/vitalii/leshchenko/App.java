@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 public class App 
 {
     public static void main( String[] args ) {
-      String dbFilePath = "WRONG FILE";
+      String dbFilePath = "C:/Users/Leshchenko/google_keys/vocabularyWRITE — копия.csv";
       try {
         Scanner scanner = new Scanner(System.in);
         String jarPath = new File(App.class.getProtectionDomain().getCodeSource().getLocation()
