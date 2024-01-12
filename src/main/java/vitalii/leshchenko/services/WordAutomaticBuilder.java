@@ -10,10 +10,6 @@ import vitalii.leshchenko.entities.*;
 
 public class WordAutomaticBuilder {
 
-    public static void main(String[] args) {
-        System.out.println(new WordAutomaticBuilder().getLearnedWord("appropriate").toString());
-    }
-
     public LearnedWord getLearnedWord(String word) {
         String apiKey = "f682040de4msha09b8a74730b45dp1bfd64jsn43269ee6b9f1";
         Gson gson = new Gson();

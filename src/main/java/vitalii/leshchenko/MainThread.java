@@ -25,11 +25,11 @@ public class MainThread {
     scanner = new Scanner(System.in);
 
     try {
-        path = new File(App.class.getProtectionDomain().getCodeSource().getLocation()
-                .toURI()).getParent();
-        mp3Speaker = new MP3Player(path);
+      path = new File(App.class.getProtectionDomain().getCodeSource().getLocation()
+              .toURI()).getParent();
+      mp3Speaker = new MP3Player(path);
     } catch (URISyntaxException e) {
-        throw new RuntimeException(e);
+      throw new RuntimeException(e);
     }
   }
 
@@ -37,11 +37,11 @@ public class MainThread {
     String text;
     Random random = new Random();
     LinkedList<LearnedWord> linkedList = listWords.stream()
-        // remove "learned" words from list
-        .filter(item -> item.getRangToLearn().equals(RangToLearn.needToLearn) ||
-        // remove every second "needToRepeat" words from list
-                       (item.getRangToLearn().equals(RangToLearn.needToRepeat) & random.nextBoolean()))
-        .collect(Collectors.toCollection(LinkedList::new));
+      // remove "learned" words from list
+      .filter(item -> item.getRangToLearn().equals(RangToLearn.needToLearn) ||
+      // remove every second "needToRepeat" words from list
+                     (item.getRangToLearn().equals(RangToLearn.needToRepeat) & random.nextBoolean()))
+      .collect(Collectors.toCollection(LinkedList::new));
     Collections.shuffle(linkedList);
 
     int iteratorTest = 0;
@@ -59,15 +59,16 @@ public class MainThread {
         System.out.println("write \"-close\" or \n write an answer");
         text = scanner.nextLine();
       }
-        learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() + 1);
-        while (!text.equalsIgnoreCase(learnedWord.getWord())) {
-          learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
-          System.out.println(learnedWord.getWord());
-          linkedList.add(learnedWord);
-          text = scanner.nextLine();
+      learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() + 1);
+      while (!text.equalsIgnoreCase(learnedWord.getWord())) {
+        learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
+        System.out.println(learnedWord.getWord());
+        linkedList.add(learnedWord);
+        text = scanner.nextLine();
       }
-        // Speak the text
-        mp3Speaker.speak(learnedWord.getWord());
+      learnedWord.checkLearned();
+      // Speak the text
+      mp3Speaker.speak(learnedWord.getWord());
     }
   }
 
