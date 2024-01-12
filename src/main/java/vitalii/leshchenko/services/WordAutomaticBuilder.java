@@ -50,11 +50,14 @@ public class WordAutomaticBuilder {
             LearnedWordTranslationApiDTO translationApiDTO = gson.fromJson(responseG.body(),
                     LearnedWordTranslationApiDTO.class);
 
+
             LearnedWord learnedWord = new LearnedWord(null,
                     word,
-                    wordApiDTO.getDefinitions().get(0).getPartOfSpeech(),
+                    wordApiDTO.getWord() == null ?
+                            WordClass.undefined : wordApiDTO.getDefinitions().get(0).getPartOfSpeech(),
                     translationApiDTO.getData().getTranslations().get(0).getTranslatedText(),
-                    wordApiDTO.getDefinitions().get(0).getDefinition(),
+                    wordApiDTO.getWord() == null ?
+                            "" : wordApiDTO.getDefinitions().get(0).getDefinition(),
                     RangToLearn.needToLearn,
                     0
                     );
