@@ -33,7 +33,7 @@ public class MainThread {
     }
   }
 
-  public void Run() {
+  public void Run(String debugCommand) {
     String text;
     Random random = new Random();
     LinkedList<LearnedWord> linkedList = listWords.stream()
@@ -46,7 +46,9 @@ public class MainThread {
 
     int iteratorTest = 0;
     while (linkedList.size() > 0) {
-      clearConsole();
+      if (debugCommand != null && debugCommand.equals("debug")) {
+        clearConsole();
+      }
       LearnedWord learnedWord = linkedList.remove();
 
       iteratorTest++;

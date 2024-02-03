@@ -62,7 +62,11 @@ public class App
       }
 
       MainThread mainThread = new MainThread(listWords);
-      mainThread.Run();
+      String debug = null;
+      if (args != null && args.length > 0) {
+        debug = "debug";
+      }
+      mainThread.Run(debug);
 
       CSVWriter<LearnedWord> writer = new FreeCSVWriter(dbFilePath);
       writer.write(listWords);

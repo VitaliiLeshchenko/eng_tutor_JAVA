@@ -1,138 +1,183 @@
 ARTICLE;WORD;WORDCLASS;UKTRANSLATION;ENGMEANING;RANGTOLEARN;RIGHTANSWERCOUNT
-;watchword;noun;лозунг;;needToRepeat;0
-;intensely;adverb;интенсивно;;needToRepeat;0
-;inappropriate;adjective;недоречно;unsuitable, esp. for the particular time, place, or situation;needToLearn;0
-;tie;verb;зав'язувати;to fasten together two ends of a piece of string or other long, thin material, or to (cause to) hold together with a long, thin piece of string, material, etc.;needToLearn;3
-;haven;noun;притулок;a place of safety or refuge;needToLearn;2
-;verb;noun;дієслово;;learned;0
-;lucidly;adverb;доходчиво;;needToRepeat;0
-;mustard;noun;горчица;;needToRepeat;0
-;knot;noun;узел;;needToRepeat;0
-;cause;noun;причина;the reason why something, especially something bad, happens;needToRepeat;0
-;observe;verb;наблюдать;;needToRepeat;0
-;awkward;adjective;незручний;difficult to use, do, or deal with;needToLearn;2
-;pave;verb;асфальтувати;;needToLearn;2
-;strangle;verb;душити;to kill someone by pressing their throat so that they cannot breathe;needToRepeat;0
-;striker;noun;забастовщик;;needToRepeat;0
-;pronoun;noun;займенник;(examples: I, You, He, She, They ...);needToLearn;2
-;tongue;noun;язик;the large, soft piece of flesh in the mouth that you can move, and is used for tasting, speaking, etc.;needToLearn;2
-;tail;noun;хвіст;a part of an animal's body, sticking out from the base of the back, or something similar in shape or position;needToLearn;2
-;sleigh;noun;сани;;needToRepeat;0
-;simultaneously;adverb;одновременно;;needToRepeat;0
-;locket;noun;медальон;;needToRepeat;0
-;furthermore;adverb;крім того;"in addition; more importantly";needToLearn;1
-;steamy;adjective;покрытый паром;;needToRepeat;0
-;remedy;noun;засіб правового захисту;;needToRepeat;0
-;concrete;noun;бетон;a very hard building material made by mixing together cement, sand, small stones, and water;needToRepeat;0
-;constitute;verb;складати, бути частиною;be (a part) of a whole;needToRepeat;0
-;rove;verb;блукати;to move or travel around an area, especially a large one;needToLearn;2
-;rub;verb;терти;to press or be pressed against something with a circular or up-and-down repeated movement;needToRepeat;0
-;dash;noun;тире;;learned;0
-;veer;verb;повертати;to change direction;needToRepeat;0
-;unimaginative;adjective;лишенный воображения;;needToRepeat;0
-;malign;adjective;згубний;causing or intending to cause harm or evil;needToRepeat;0
-;rugged;adjective;суровый;;needToLearn;2
-;recognition;noun;визнання;agreement that something is true or legal;needToLearn;2
-;humankind;noun;людство;;learned;0
-;advertising;noun;реклама;;needToRepeat;0
-;defendant;noun;відповідач;;learned;0
-;allege;verb;стверджувати;;needToLearn;2
-;virginity;noun;девственность;;learned;0
-;dump;noun;звалище;a place where people are allowed to leave their rubbish;needToRepeat;0
-;refund;noun;відшкодування;an amount of money that is given back to you, especially because you are not happy with a product or service that you have bought;needToRepeat;0
-;sandpaper;noun;наждачная бумага;;learned;0
-;article;noun;артикль;words that define a noun as specific or unspecific.;learned;0
-;rubbish;noun;мусор;;needToRepeat;0
-;elusive;adjective;невловимий;difficult to describe, find, achieve, or remember;needToLearn;0
-;jug;noun;глечик;;needToRepeat;0
-;unintended;adjective;ненавмисний;not planned for;needToLearn;1
-;accessory;noun;аксесуар;something added to a machine or to clothing that has a useful or decorative purpose;needToRepeat;0
-;rely;verb;покладатися;;needToRepeat;0
-;consistency;noun;консистенція;the physical nature of a substance, especially a thick liquid, for example by being thick or thin, smooth or lumpy, etc.;learned;0
-;flourish;verb;процвітати;;learned;0
-;untroubled;adjective;тихий;CALM, TRANQUIL;needToRepeat;0
-;significant;adjective;значний;important or noticeable;needToLearn;2
-;greed;noun;жадібність;;needToLearn;2
-;emphasize;verb;підкреслити;to show that something is very important or worth giving attention to;needToLearn;2
-;interjection;noun;вставне слово;a word or phrase used to express a feeling or to request or demand something;needToLearn;1
-;stack;noun;стек;a pile of things arranged one on top of another;needToLearn;1
-;carry;verb;нести;to hold something or someone with your hands, arms, or on your back and transport it, him, or her from one place to another;needToLearn;2
-;straightforward;adjective;прямолінійний;easy to understand or simple;needToLearn;2
-;succession;noun;последовательность;;needToRepeat;0
-;environment;noun;навколишнє середовище;;learned;0
-;knifepoint;noun;острие ножа;;needToRepeat;0
-;sniff;verb;нюхать;;needToRepeat;0
-;prosperous;adjective;процвітаючий;successful, usually by earning a lot of money;needToRepeat;0
-;hillside;noun;схил пагорба;;learned;0
-;inconsistency;noun;несоответствие;;needToLearn;-2
-;weep;verb;плакати;to cry tears;needToLearn;2
-;intend;verb;мають намір;to have as a plan or purpose;needToRepeat;0
-;ulcerative;adjective;язвенный;;needToRepeat;0
-;adverb;noun;прислівник;words that answer at question Where? How Much? How? How often? When?;needToLearn;1
-;congratulatory;adjective;вітальний;;needToRepeat;0
-;sincerity;noun;искренность;;needToRepeat;0
-;aid;noun;допомога;help or support;needToLearn;2
-;flagship;noun;флагман;;learned;0
-;bind;verb;зв'язати;to tie something or someone tightly or to fasten something;needToLearn;0
-;wealth;noun;багатство;a large amount of money or valuable possessions that someone has;needToRepeat;0
-;haunt;verb;переслідувати;to cause repeated suffering or anxiety;needToLearn;2
-;upstanding;adjective;уважаемый;;needToRepeat;0
-;cladding;noun;облицювання;material that covers the surface of something and protects it;needToRepeat;0
-;candid;adjective;відвертий;;needToRepeat;0
-;stateless;adjective;не имеющий гражданства;or an application program that does not save client data generated in one session for use in the next session with that client;needToRepeat;0
-;nun;noun;черниця;a member of a female religious group that lives in a convent;needToRepeat;0
-;thrive;verb;процвітати;to grow, develop, or be successful (not flourish);needToRepeat;0
-;bargain;noun;дешевина;something on sale at a lower price than its true value;needToLearn;2
-;determine;verb;визначати;to control or influence something directly, or to decide what will happen;needToRepeat;0
-;vigorously;adverb;енергійно;in a way that is very forceful or energetic;needToLearn;2
-;anchor;noun;якір;a heavy metal object, usually shaped like a cross with curved arms, on a strong rope or chain, that is dropped from a boat into the water to prevent the boat from moving away;needToLearn;1
-;affluence;noun;достаток;the state of having a lot of money or owning many things;needToLearn;1
-;himalayan;adjective;гімалайський;;learned;0
-;remark;verb;отмечать;;needToRepeat;0
-;aisle;noun;прохід;a long, narrow space between rows of seats in an aircraft, cinema, or church;needToRepeat;0
-;scrub;noun;скраб;to rub something hard in order to clean it, especially using a stiff brush, soap, and water;learned;0
-;detach;verb;від'єднати;to separate or remove something from something else that it is connected to;needToLearn;0
-;butler;noun;дворецький;the most important male servant in a house, usually responsible for organizing the other servants;needToRepeat;0
-;excise;noun;акциз;a tax made by a government on some types of goods produced and used within their own country;needToRepeat;0
-;wire;noun;дріт;metal drawn out into the form of a thin flexible thread or rod;needToLearn;2
-;appears;verb;з'являтися;;needToRepeat;0
-;downer;noun;депресант;;needToRepeat;0
-;fracture;verb;ламати;If something hard, such as a bone breaks or cracks;needToLearn;3
-;headache;noun;головний біль;;learned;0
-;silencer;noun;глушитель;;learned;0
-;rapid;adjective;швидкий;fast or sudden;needToLearn;2
-;conjunction;noun;сполучник;a word that is used to connect words, phrases, and clauses (examples: and, or, so, for, since, because, as, but, yet, while, in case ...);needToLearn;2
-;rive;verb;розривати;to cut something apart with great force;needToRepeat;0
-;spoil;verb;портить;;needToRepeat;0
-;environmentally;adverb;екологічно;;learned;0
-;noun;noun;іменник;;learned;0
-;sensitively;adverb;чутко;;needToLearn;2
-;adjective;noun;прикметник;;needToRepeat;0
-;tummy;noun;животик;the stomach, or the lower front part of the body;needToRepeat;0
-;expand;verb;розширити;to increase in size, number, or importance, or to make something increase in this way;learned;0
-;snoop;verb;шпионить;;needToRepeat;0
-;unbowed;adjective;непокоренный;;needToRepeat;0
-;agreement;noun;угода, договір;;needToRepeat;0
-;consider;verb;розглянути;to spend time thinking about a possibility or making a decision;needToLearn;2
-;purpose;noun;мета;why you do something or why something exists;needToLearn;3
-;prodigy;noun;чудо;;needToRepeat;0
-;thesis;noun;теза;the main idea, opinion, or theory of a person, group, piece of writing, or speech;learned;0
-;checkout;noun;каса;the place on a website where you order and pay for goods;needToLearn;2
-;desire;noun;бажання;;needToRepeat;0
-;preposition;noun;прийменник;(examples: in, at, on, of, to);needToLearn;2
-;incoherent;adjective;незв'язний;expressing yourself in a way that is not clear;needToLearn;2
-;appropriate;adjective;відповідний;suitable or right for a particular situation or occasion;needToLearn;2
-;connotation;noun;конотація;a feeling or idea that is suggested by a particular word although it need not be a part of the word's meaning, or something suggested by an object or situation;needToLearn;3
-;trolley;noun;візок;a small vehicle with two or four wheels that you push or pull to transport large or heavy objects on;needToRepeat;0
-;determiner;noun;визначник;a word that modifies, describes, or introduces a noun;needToRepeat;0
-;peel;noun;шкірка;the skin of fruit and vegetables, especially after it has been removed;learned;0
-;strap;noun;ремінь;;needToRepeat;1
-;impersonator;noun;самозванец;;needToRepeat;0
-;heap;noun;куча;an untidy pile or mass of things;needToLearn;3
-;suggest;verb;пропонувати;to mention an idea, possible plan, or action for other people to consider;needToLearn;2
-;deficit;noun;дефіцит;the total amount by which money spent is more than money received;learned;0
-;beefy;adjective;мускулистий;person looks strong, heavy, and powerful;needToLearn;1
-;compound;noun;з'єднання;something consisting of two or more different parts;needToLearn;2
-;eviscerate;verb;потрошити;or to remove one or all of the organs from the inside of a body;needToRepeat;0
-;pollution;noun;забруднення;damage caused to water, air, etc. by harmful substances or waste;needToRepeat;0
-;prescriptive;adjective;предписывающий;saying exactly what must happen, especially by giving an instruction or making a rule;needToRepeat;0
+;disease;noun;захворювання;illness of people, animals, plants, etc., caused by infection or a failure of health rather than by an accident;needToLearn;15
+;burglar;noun;грабіжник;a person who illegally enters buildings and steals things;needToRepeat;16
+;scratch;verb;дряпати;to cut or damage a surface or your skin slightly with or on something sharp or rough;needToLearn;14
+;vapour;noun;пара;gas or extremely small drops of liquid that result from the heating of a liquid or solid;needToLearn;13
+;tale;noun;казка;a story, especially one that might be invented or difficult to believe;needToLearn;14
+;carpet;noun;килим;a layer of something that covers the ground;needToLearn;15
+;domestic;noun;domestic;relating to a person's own country;needToRepeat;6
+;accuracy;noun;точність;the quality or state of being correct or precise.;needToLearn;14
+;sake;noun;користь;"for the purpose of; in the interest of; in order to achieve or preserve.";needToLearn;11
+;approach;noun;підхід;come near or nearer to (someone or something) in distance or time.;needToLearn;12
+;reliable;adjective;надійний;"consistently good in quality or performance; able to be trusted.";needToLearn;12
+;article;noun;артикль;words that define a noun as specific or unspecific.;learned;21
+;bargain;noun;дешевина;something on sale at a lower price than its true value;learned;21
+;carry;verb;нести;to hold something or someone with your hands, arms, or on your back and transport it, him, or her from one place to another;learned;21
+;consider;verb;розглянути;to spend time thinking about a possibility or making a decision;learned;21
+;consistency;noun;консистенція;the physical nature of a substance, especially a thick liquid, for example by being thick or thin, smooth or lumpy, etc.;learned;21
+;dash;noun;тире;;learned;21
+;defendant;noun;відповідач;;learned;21
+;deficit;noun;дефіцит;the total amount by which money spent is more than money received;learned;21
+;environment;noun;навколишнє середовище;;learned;21
+;environmentally;adverb;екологічно;;learned;21
+;expand;verb;розширити;to increase in size, number, or importance, or to make something increase in this way;learned;21
+;flagship;noun;флагман;;learned;21
+;flourish;verb;процвітати;;learned;21
+;headache;noun;головний біль;;learned;21
+;hillside;noun;схил пагорба;;learned;21
+;himalayan;adjective;гімалайський;;learned;21
+;humankind;noun;людство;;learned;21
+;noun;noun;іменник;;learned;21
+;pave;verb;асфальтувати;;learned;21
+;peel;noun;шкірка;the skin of fruit and vegetables, especially after it has been removed;learned;21
+;pronoun;noun;займенник;(examples: I, You, He, She, They ...);learned;21
+;purpose;noun;мета;why you do something or why something exists;learned;21
+;rugged;adjective;суровый;;learned;21
+;sandpaper;noun;наждачная бумага;;learned;21
+;scrub;noun;скраб;to rub something hard in order to clean it, especially using a stiff brush, soap, and water;learned;21
+;silencer;noun;глушитель;;learned;21
+;straightforward;adjective;прямолінійний;easy to understand or simple;learned;21
+;thesis;noun;теза;the main idea, opinion, or theory of a person, group, piece of writing, or speech;learned;21
+;tie;verb;зав'язувати;to fasten together two ends of a piece of string or other long, thin material, or to (cause to) hold together with a long, thin piece of string, material, etc.;learned;21
+;tongue;noun;язик;the large, soft piece of flesh in the mouth that you can move, and is used for tasting, speaking, etc.;learned;21
+;verb;noun;дієслово;;learned;21
+;vigorously;adverb;енергійно;in a way that is very forceful or energetic;learned;21
+;virginity;noun;девственность;;learned;21
+;weep;verb;плакати;to cry tears;learned;21
+;aid;noun;допомога;help or support;learned;21
+;checkout;noun;каса;the place on a website where you order and pay for goods;learned;21
+;connotation;noun;конотація;a feeling or idea that is suggested by a particular word although it need not be a part of the word's meaning, or something suggested by an object or situation;learned;21
+;detach;verb;від'єднати;to separate or remove something from something else that it is connected to;learned;21
+;elusive;adjective;невловимий;difficult to describe, find, achieve, or remember;learned;21
+;haunt;verb;переслідувати;to cause repeated suffering or anxiety;learned;21
+;haven;noun;притулок;a place of safety or refuge;learned;21
+;heap;noun;куча;an untidy pile or mass of things;learned;21
+;unintended;adjective;ненавмисний;not planned for;learned;21
+;wire;noun;дріт;metal drawn out into the form of a thin flexible thread or rod;learned;21
+;allege;verb;стверджувати;;learned;21
+;awkward;adjective;незручний;difficult to use, do, or deal with;learned;21
+;bind;verb;зв'язати;to tie something or someone tightly or to fasten something;learned;21
+;fracture;verb;ламати;If something hard, such as a bone breaks or cracks;learned;21
+;greed;noun;жадібність;;learned;21
+;incoherent;adjective;незв'язний;expressing yourself in a way that is not clear;learned;21
+;interjection;noun;вставне слово;a word or phrase used to express a feeling or to request or demand something;learned;21
+;rove;verb;блукати;to move or travel around an area, especially a large one;learned;21
+;sensitively;adverb;чутко;;learned;21
+;suggest;verb;пропонувати;to mention an idea, possible plan, or action for other people to consider;learned;21
+;tail;noun;хвіст;a part of an animal's body, sticking out from the base of the back, or something similar in shape or position;learned;21
+;affluence;noun;достаток;the state of having a lot of money or owning many things;learned;21
+;appropriate;adjective;відповідний;suitable or right for a particular situation or occasion;learned;21
+;beefy;adjective;мускулистий;person looks strong, heavy, and powerful;learned;21
+;conjunction;noun;сполучник;a word that is used to connect words, phrases, and clauses (examples: and, or, so, for, since, because, as, but, yet, while, in case ...);learned;21
+;preposition;noun;прийменник;(examples: in, at, on, of, to);learned;21
+;recognition;noun;визнання;agreement that something is true or legal;learned;21
+;significant;adjective;значний;important or noticeable;learned;21
+;adverb;noun;прислівник;words that answer at question Where? How Much? How? How often? When?;learned;21
+;aggregation;noun;агрегація;the formation of a number of things into a cluster;learned;21
+;inappropriate;adjective;недоречно;unsuitable, esp. for the particular time, place, or situation;learned;21
+;compound;noun;з'єднання;something consisting of two or more different parts;learned;21
+;rapid;adjective;швидкий;fast or sudden;learned;21
+;agreement;noun;угода, договір;;learned;21
+;inheriting;noun;наслідування;to receive money, a house, etc. from someone after they have died;learned;21
+;anchor;noun;якір;a heavy metal object, usually shaped like a cross with curved arms, on a strong rope or chain, that is dropped from a boat into the water to prevent the boat from moving away;learned;21
+;emphasize;verb;підкреслити;to show that something is very important or worth giving attention to;learned;21
+;furthermore;adverb;крім того;"in addition; more importantly";learned;21
+;inconsistency;noun;несоответствие;;learned;21
+;stack;noun;стек;a pile of things arranged one on top of another;learned;21
+;thereby;adverb;таким чином;because of this/ as a result of this action;learned;21
+;willingness;noun;готовність;the quality of being happy to do something if it is needed;learned;21
+;intend;verb;мають намір;to have as a plan or purpose;learned;21
+;spoil;verb;портить;;learned;21
+;trace;noun;слід;to find someone or something that was lost;learned;21
+;refund;noun;відшкодування;an amount of money that is given back to you, especially because you are not happy with a product or service that you have bought;learned;21
+;nun;noun;черниця;a member of a female religious group that lives in a convent;learned;21
+;pollution;noun;забруднення;damage caused to water, air, etc. by harmful substances or waste;learned;21
+;exert;verb;докладати зусиль;to use something such as authority, power, influence, etc. in order to make something happen;learned;21
+;intimacy;noun;інтимність;a situation in which you have a close friendship or sexual relationship with someone;learned;21
+;intensely;adverb;интенсивно;;learned;21
+;congratulatory;adjective;вітальний;;learned;21
+;strangle;verb;душити;to kill someone by pressing their throat so that they cannot breathe;learned;21
+;adjective;noun;прикметник;;learned;21
+;stateless;adjective;не имеющий гражданства;or an application program that does not save client data generated in one session for use in the next session with that client;learned;21
+;desire;noun;бажання;;learned;21
+;knifepoint;noun;острие ножа;;learned;21
+;eviscerate;verb;потрошити;or to remove one or all of the organs from the inside of a body;learned;21
+;deserve;verb;заслуговують;to have earned or to be given something because of the way you have behaved or the qualities you have;learned;21
+;accessory;noun;аксесуар;something added to a machine or to clothing that has a useful or decorative purpose;learned;21
+;assemble;verb;зібрати;to come together in a single place or bring parts together in a single group;learned;21
+;succession;noun;последовательность;;learned;21
+;downer;noun;депресант;;learned;21
+;watchword;noun;лозунг;;learned;21
+;sincerity;noun;искренность;;learned;21
+;unimaginative;adjective;лишенный воображения;;learned;21
+;determiner;noun;визначник;a word that modifies, describes, or introduces a noun;learned;21
+;appears;verb;з'являтися;;learned;21
+;ulcerative;adjective;язвенный;;learned;21
+;advertising;noun;реклама;;learned;21
+;snoop;verb;шпионить;;learned;21
+;unbowed;adjective;непокоренный;;learned;21
+;sniff;verb;нюхать;;learned;21
+;observe;verb;наблюдать;;learned;21
+;prescriptive;adjective;предписывающий;saying exactly what must happen, especially by giving an instruction or making a rule;learned;21
+;remedy;noun;засіб правового захисту;;learned;21
+;strap;noun;ремінь;;learned;21
+;rive;verb;розривати;to cut something apart with great force;learned;21
+;occur;verb;відбуватися, зустрічатися (happen);(especially of accidents and other unexpected events) to happen;learned;21
+;untroubled;adjective;тихий;CALM, TRANQUIL;learned;21
+;mustard;noun;горчица;;learned;21
+;wealth;noun;багатство;a large amount of money or valuable possessions that someone has;learned;21
+;remark;verb;отмечать;;learned;21
+;rubbish;noun;мусор;;learned;21
+;rough;adjective;грубий;not even or smooth, often because of being in bad condition;learned;21
+;constitute;verb;складати, бути частиною;be (a part) of a whole;learned;21
+;determine;verb;визначати;to control or influence something directly, or to decide what will happen;learned;21
+;jug;noun;глечик;;learned;21
+;reliability;noun;надійність;the quality of being able to be trusted or believed because of working or behaving well;learned;21
+;malign;adjective;згубний;causing or intending to cause harm or evil;needToRepeat;22
+;rub;verb;терти;to press or be pressed against something with a circular or up-and-down repeated movement;learned;22
+;prosperous;adjective;процвітаючий;successful, usually by earning a lot of money;learned;24
+;lucidly;adverb;доходчиво;;learned;23
+;sleigh;noun;сани;;learned;25
+;cladding;noun;облицювання;material that covers the surface of something and protects it;learned;25
+;aisle;noun;прохід;a long, narrow space between rows of seats in an aircraft, cinema, or church;learned;22
+;prodigy;noun;чудо;;learned;21
+;veer;verb;повертати;to change direction;learned;21
+;candid;adjective;відвертий;;learned;24
+;dump;noun;звалище;a place where people are allowed to leave their rubbish;learned;21
+;cause;noun;причина;the reason why something, especially something bad, happens;learned;22
+;rely;verb;покладатися;;learned;22
+;concrete;noun;бетон;a very hard building material made by mixing together cement, sand, small stones, and water;needToRepeat;21
+;trolley;noun;візок;a small vehicle with two or four wheels that you push or pull to transport large or heavy objects on;learned;21
+;tummy;noun;животик;the stomach, or the lower front part of the body;learned;21
+;striker;noun;забастовщик;;learned;21
+;upstanding;adjective;уважаемый;;learned;21
+;locket;noun;медальон;;learned;22
+;steamy;adjective;покрытый паром;;learned;21
+;impersonator;noun;самозванец;;needToRepeat;20
+;simultaneously;adverb;одновременно;;learned;23
+;evaluate;verb;оцінити;to judge or calculate the quality, importance, amount, or value of something;learned;21
+;excise;noun;акциз;a tax made by a government on some types of goods produced and used within their own country;learned;21
+;butler;noun;дворецький;the most important male servant in a house, usually responsible for organizing the other servants;learned;21
+;measure;verb;виміряти;to discover the exact size or amount of something;learned;21
+;allocate;verb;виділяти;to give something to someone as their share of a total amount, to use in a particular way;learned;21
+;processed;adjective;оброблений; food has had some sort of chemical or industrial treatment in order to cook it, preserve it, or improve its taste or appearance;learned;21
+;convenience;noun;Зручність;the state of being suitable for your purposes and needs and causing the least difficulty;needToRepeat;20
+;suitable;adjective;Підходящий, відповідний, придатний;acceptable or right for someone or something:;needToRepeat;19
+;thrive;verb;процвітати;to grow, develop, or be successful (not flourish);needToRepeat;17
+;knot;noun;узел;;needToRepeat;20
+;restrict;verb;обмежувати;to limit the movements or actions of someone, or to limit something and reduce its size or prevent it from increasing;needToRepeat;19
+;They were punished with unusual rigor;sentence;Вони були покарані з незвичайною суворістю;;needToRepeat;16
+;eternal;adjective;вічний;lasting forever or for a very long time;learned;21
+;a severe chest infection;sentence;важка інфекція грудей;;needToRepeat;19
+;intensity;noun;інтенсивність;the quality of being felt strongly or having a very strong effect;needToRepeat;17
+;tweak;verb;налаштувати;improve (a mechanism or system) by making fine adjustments to it.;needToLearn;8
+;expand;verb;розширити;exaggerate or make bigger;needToLearn;5
+;scatterplot;undefined;Діаграма розкиду;;needToLearn;3
+;scrap;noun;брухт;worthless material that is to be disposed of;needToLearn;2
+;treat;verb;лікувати;provide with choice or abundant food or drink;needToLearn;3
+;exhausted;adjective;виснажений;"drained of energy or effectiveness; extremely tired; completely exhausted";needToLearn;1
+;fortnight;noun;два тижні;a period of fourteen consecutive days;needToLearn;1
+;icicle;noun;бурулька;ice resembling a pendent spear, formed by the freezing of dripping water;needToLearn;1
+;blatant;adjective;кричущий;"without any attempt at concealment; completely obvious";needToLearn;1
+;nucleus;noun;ядро;a part of the cell containing DNA and RNA and responsible for growth and reproduction;needToLearn;1
+;fallacy;noun;омана;a misconception resulting from incorrect reasoning;needToLearn;2
