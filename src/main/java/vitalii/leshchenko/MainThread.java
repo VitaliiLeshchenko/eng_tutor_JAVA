@@ -56,11 +56,11 @@ public class MainThread {
       System.out.println(learnedWord.getUkTranslation() + " - " + learnedWord.getEngMeaning());
       System.out.println("    " + learnedWord.getRangToLearn() + " - " + learnedWord.getRightAnswerCount());
       text = scanner.nextLine();
-      if (text.equals("-close")) break;
       if (text.equals("-help")) {
         System.out.println("write \"-close\" or \n write an answer");
         text = scanner.nextLine();
       }
+      if (text.equals("-close")) break;
       learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() + 1);
       while (!text.equalsIgnoreCase(learnedWord.getWord())) {
         learnedWord.setRightAnswerCount(learnedWord.getRightAnswerCount() - 1);
